@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Your Name",
+  "classifications": [ "Web", "Microservices", "AI", "Azure" ],
+  "identity": "CompanyName.AspireProjectTemplate",
+  "name": "Aspire Project Template",
+  "shortName": "aspire-template",
+  "sourceName": "ProjectName",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "preferNameDirectory": true,
+  "symbols": {
+    "CompanyName": {
+      "type": "parameter",
+      "datatype": "string",
+      "defaultValue": "MyCompany",
+      "description": "The company namespace for the project."
+    }
+  },
+  "primaryOutputs": [
+    {
+      "path": "src/CompanyName.ProjectName.AppHost/CompanyName.ProjectName.AppHost.csproj"
+    },
+    {
+      "path": "src/CompanyName.ProjectName.Application/CompanyName.ProjectName.Application.csproj"
+    },
+    {
+      "path": "src/CompanyName.ProjectName.Core/CompanyName.ProjectName.Core.csproj"
+    },
+    {
+      "path": "src/CompanyName.ProjectName.Infrastructure/CompanyName.ProjectName.Infrastructure.csproj"
+    },
+    {
+      "path": "src/CompanyName.ProjectName.ServiceDefaults/CompanyName.ProjectName.ServiceDefaults.csproj"
+    },
+    {
+      "path": "src/CompanyName.ProjectName.AgentsService/CompanyName.ProjectName.AgentsService.csproj"
+    },
+    {
+      "path": "src/CompanyName.ProjectName.Shared/CompanyName.ProjectName.Shared.csproj"
+    }
+  ],
+  "postActions": [
+    {
+      "description": "Restores NuGet packages required by this template.",
+      "manualInstructions": [
+        { "text": "Run 'dotnet restore' to install dependencies." }
+      ],
+      "actionId": "E2E_Restore"
+    }
+  ]
+}
