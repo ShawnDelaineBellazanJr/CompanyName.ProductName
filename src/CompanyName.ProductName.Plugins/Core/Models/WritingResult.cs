@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CompanyName.ProductName.AI
+namespace CompanyName.ProductName.Plugins.Core.Models
 {
-    class SemanticKernelSetup
+    class WritingResult
     {
     }
 }

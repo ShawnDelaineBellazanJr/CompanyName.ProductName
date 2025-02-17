@@ -1,0 +1,4 @@
+Based on the following prompt, generate a thoughtful and coherent response:
+{{$input}}
+
+Response:

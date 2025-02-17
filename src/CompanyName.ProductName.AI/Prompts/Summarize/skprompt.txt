@@ -1,0 +1,4 @@
+Summarize the following text in a concise way while retaining the key points:
+{{$input}}
+
+Summary:

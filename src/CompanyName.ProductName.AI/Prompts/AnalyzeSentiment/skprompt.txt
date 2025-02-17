@@ -1,0 +1,4 @@
+Analyze the sentiment of the following text and respond with 'true' for positive sentiment or 'false' for negative sentiment:
+{{$input}}
+
+Respond with only true or false.
